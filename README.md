@@ -12,7 +12,7 @@
 - Clone on your local machine
 
 ```
-git clone https://github.com/fineanmol/Hacktoberfest2021.git
+git clone https://github.com/manuarya1610/Hacktoberfest2k22.git
 
 ```
 - Navigate to project directory.
