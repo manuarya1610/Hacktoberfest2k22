@@ -4,7 +4,7 @@
 ## Getting Started 🤩🤗:
 
 
-### Upload your landing page or resume page in a folder with `your name`.
+### Upload your elemnts like button or loading animation in a folder with `your name`.
 ### Make the page using `HTML, CSS and/or JavaScript`.
 
 <br/>
