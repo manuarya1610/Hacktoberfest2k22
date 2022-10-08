@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Plans</title>
+    <link rel="stylesheet" href="pricing.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+<style>
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #b49bc8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.panel {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+}
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.pricing-features {
+  margin: 50px 0 5px;
+  color: #016ff9;
+}
+.pricing-features-items {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0px;
+  border-top: 1px solid #e1f1ff;
+}
+.pricing-features-items {
+  border-bottom: 1px solid #e1f1ff;
+}
+.pricing-price {
+  color: #016ff9;
+  display: block;
+}
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348efe;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  transition: backgroung-color 200ms ease-in-out;
+}
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff;
+}
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: white;
+}
+.pricing-button.is-featured:hover {
+  background-color: #269aff;
+}
+@media (min-width: 900px) {
+  .panel {
+    flex-direction: row;
+  }
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding: 25px 50px;
+  }
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
+
+</style>
+</head>
+
+<body>
+    <div class="panel">
+        <div class="pricing-plan">
+            <img src="r1.png" class="pricing-img">
+            <h2 class="pricing-header">Mini</h2>
+            <ul class="pricing-features">
+                <li class="pricing-features-item">Ad's on demand</li>
+                <li class="pricing-features-ite m">1 account</li>
+            </ul>
+            <span class="pricing-price">Free</span>
+            <a href="#/" class="pricing-button">Sign up</a>
+        </div>
+        <div class="pricing-plan">
+            <img src="R2.png" alt="" class="pricing-img">
+            <h2 class="pricing-header">Personal</h2>
+            <ul class="pricing-features">
+                <li class="pricing-features-item">Listen to Ad free music</li>
+                <li class="pricing-features-item">1 account</li>
+            </ul>
+            <span class="pricing-price">₹119/month</span>
+            <a href="#/" class="pricing-button">Sign Up</a>
+        </div>
+
+
+        <div class="pricing-plan">
+            <img src="R3.png" alt="" class="pricing-img">
+            <h2 class="pricing-header">Family</h2>
+            <ul class="pricing-features">
+                <li class="pricing-features-item">Listen Ad free music plus download the songs</li>
+                <li class="pricing-features-item">5 accounts</li>
+            </ul>
+            <span class="pricing-price">₹499/month</span>
+            <a href="#/" class="pricing-button is-featured">Free trial</a>
+        </div>
+</body>
+
+</html>
